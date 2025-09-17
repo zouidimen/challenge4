@@ -1,0 +1,185 @@
+body{
+   background: linear-gradient(to bottom right, rgb(197, 30, 102) , rgba(128, 0, 128, 0.6) );
+   height: 800px;
+}
+.box{
+  
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: solid 2px rgb(224, 221, 221); */
+    width: 800px;
+    /* min-height: 600px; */
+    margin: 100px auto;
+    border-radius: 10px;
+}
+.box1{
+    /* border: solid 5px rgb(240, 16, 16);
+       border-right: solid 2px white; */
+    display: block;
+    width: 300px;
+    padding: 50px ;
+    text-align: center;
+    background-color: rgb(238, 183, 233);
+    justify-content: space-around;
+  
+
+    
+
+   
+}
+.box1 h1{
+    padding-top: 50px;
+    color: rgb(58, 52, 52);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box1 h3{
+    color:  rgb(206, 60, 133);
+    text-align: center;
+    font-size: 70px;
+    position: absolute;
+    
+}
+.box2{
+    /* border: solid 5px rgb(47, 9, 150); */
+    /* border-left: solid 2px white; */
+    display: block;
+    width: 300px;
+    height: 500px;
+    padding: 50px ;
+    text-align: center;
+     background-color: rgba(212, 135, 193, 0.767);
+   
+}
+.box2 h1{
+     padding-top: 50px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box2 h3{
+     color: rgb(206, 60, 133);
+    text-align: center;
+    font-size: 70px;
+    
+    position: absolute;
+   
+}
+.h3-box2{
+    margin-left: 100px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+.h3-box1{
+     margin-top: 0px;
+    margin-left: 100px;
+    font-weight: 500;
+
+}
+.dice{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    right: 58%;
+   
+}
+.dice-5{
+    width: 120px;
+    position: absolute;
+    margin-top: 170px;
+
+}
+.new-game{
+    color: grey;
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 60px;
+    padding: 7px ;
+    width: 170px;
+    background-color:  rgb(233, 208, 208);
+    font-size: 17px;
+   border: solid 0px white;
+
+    
+   
+
+}
+.Roll{
+    border: solid 0px white;
+    position: absolute;
+    margin-top: 430px;
+    color: grey;
+    border-radius: 15px;
+    padding: 7px;
+    width: 140px;
+    background-color: rgb(233, 208, 208);
+    font-size: 17px;
+}
+.Hold{
+    border: none;
+    position: absolute;
+    margin-top: 500px;
+    width: 100px;
+    padding: 10px;
+    justify-content: space-around;
+    color: grey;
+    border-radius: 10px;
+    background-color: rgb(233, 208, 208);
+    font-size: 17px;
+}
+.resultat{
+    width: 14%;
+    height: 15%;
+    position: absolute;
+    left: 31%;
+    top: 65%;
+    background-color: rgb(253, 42, 113);
+    border-radius: 12px;
+    
+
+    }
+    .resultat h2{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+.resultat h4{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 30px;
+    right: 120px;  
+}
+.resultat2{
+    width: 14%;
+    height: 15%;
+    position: absolute;
+    right: 31%;
+    top: 65%;
+    background-color: rgb(253, 42, 113);
+    border-radius: 12px;
+}
+.resultat2 h2{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+.resultat2 h4{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    position: absolute;
+    top: 30px;
+    right: 120px;   
+}
